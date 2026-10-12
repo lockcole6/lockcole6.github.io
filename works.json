@@ -1,10 +1,58 @@
 [
   {
+    "id": "kamisama-ima-okiteru",
+    "category": "games",
+    "title": "カミサマ、いま起きてる？",
+    "description": "現実の時間で動く、小さな町。カミサマになって、住民たちにちょっかいを。",
+    "tags": [
+      "シミュレーション",
+      "プロトタイプ"
+    ],
+    "url": "https://lockcole6.github.io/kamisama-ima-okiteru/",
+    "image": "assets/kamisama-town.webp",
+    "imageAlt": "カミサマ、いま起きてる？の町のマップ",
+    "art": "town",
+    "action": "ゲームで遊ぶ"
+  },
+  {
+    "id": "mofumofu-shukyudan",
+    "category": "games",
+    "title": "もふもふ蹴球団",
+    "description": "動物や幻獣の選手を集め、自分だけのチームを編成。リーグの頂点を目指そう。",
+    "tags": [
+      "サッカー",
+      "チーム育成"
+    ],
+    "url": "https://lockcole6.github.io/Mofumofu_Shukyudan/",
+    "art": "screenshot",
+    "action": "ゲームで遊ぶ",
+    "image": "assets/mofumofu-game.webp",
+    "imageAlt": "もふもふ蹴球団の選手がピッチに並ぶ対戦準備画面"
+  },
+  {
+    "id": "sprint100m",
+    "category": "games",
+    "title": "100m SPRINT",
+    "description": "スタートの一瞬から、ゴールまで。ドット絵のトラックで挑む、100mのレース。",
+    "tags": [
+      "スポーツ",
+      "レトロゲーム"
+    ],
+    "url": "https://lockcole6.github.io/sprint100m/",
+    "art": "screenshot",
+    "action": "ゲームで遊ぶ",
+    "image": "assets/sprint100m-game.webp",
+    "imageAlt": "100m SPRINTで4人の選手がスタートラインに並ぶレース画面"
+  },
+  {
     "id": "kaketara-okiru",
     "category": "manga",
     "title": "賭けたら起きる。",
     "description": "退屈な男の日常が動き出す。第1話「退屈な男」を、全16ページで。",
-    "tags": ["ドラマ", "第1話公開中"],
+    "tags": [
+      "ドラマ",
+      "第1話公開中"
+    ],
     "url": "https://lockcole6.github.io/kaketara-okiru/",
     "image": "assets/kaketara-okiru.webp",
     "imageAlt": "漫画「賭けたら起きる。」第1話の扉ページ",
@@ -17,7 +65,10 @@
     "category": "manga",
     "title": "まだ、速くなれる。",
     "description": "30代の会社員が、100mの世界へ踏み出す。もう一度、速さに夢中になる物語。",
-    "tags": ["スポーツ", "社会人 × 100m"],
+    "tags": [
+      "スポーツ",
+      "社会人 × 100m"
+    ],
     "url": "https://lockcole6.github.io/mada-hayaku-nareru/",
     "image": "assets/mada-hayaku-nareru.webp",
     "imageAlt": "漫画「まだ、速くなれる。」第1話の1ページ目",
@@ -30,7 +81,10 @@
     "category": "manga",
     "title": "退屈のオッズ",
     "description": "着順の向こうに、人間と展開がある。人生に飽きていた男が出会う、競輪の物語。",
-    "tags": ["ドラマ", "競輪"],
+    "tags": [
+      "ドラマ",
+      "競輪"
+    ],
     "url": "https://lockcole6.github.io/taikutsu-no-odds/",
     "image": "assets/taikutsu-no-odds.webp",
     "imageAlt": "漫画「退屈のオッズ」第1話の1ページ目",
@@ -39,43 +93,14 @@
     "action": "漫画を読む"
   },
   {
-    "id": "kamisama-ima-okiteru",
-    "category": "games",
-    "title": "カミサマ、いま起きてる？",
-    "description": "現実の時間で動く、小さな町。カミサマになって、住民たちにちょっかいを。",
-    "tags": ["シミュレーション", "プロトタイプ"],
-    "url": "https://lockcole6.github.io/kamisama-ima-okiteru/",
-    "image": "assets/kamisama-town.webp",
-    "imageAlt": "カミサマ、いま起きてる？の町のマップ",
-    "art": "town",
-    "action": "ゲームで遊ぶ"
-  },
-  {
-    "id": "mofumofu-shukyudan",
-    "category": "games",
-    "title": "もふもふ蹴球団",
-    "description": "動物や幻獣の選手を集め、自分だけのチームを編成。リーグの頂点を目指そう。",
-    "tags": ["サッカー", "チーム育成"],
-    "url": "https://lockcole6.github.io/Mofumofu_Shukyudan/",
-    "art": "football",
-    "action": "ゲームで遊ぶ"
-  },
-  {
-    "id": "sprint100m",
-    "category": "games",
-    "title": "100m SPRINT II",
-    "description": "スタートの一瞬から、ゴールまで。ドット絵のトラックで挑む、100mのレース。",
-    "tags": ["スポーツ", "レトロゲーム"],
-    "url": "https://lockcole6.github.io/sprint100m/",
-    "art": "sprint",
-    "action": "ゲームで遊ぶ"
-  },
-  {
     "id": "track-record",
     "category": "apps",
     "title": "スプリント記録",
     "description": "100m・200m・400mのタイムを記録して、成長をグラフで振り返る。日々の走りを、次の一歩へ。",
-    "tags": ["陸上短距離", "記録・分析"],
+    "tags": [
+      "陸上短距離",
+      "記録・分析"
+    ],
     "url": "https://sprint-record.vercel.app/",
     "image": "assets/sprint-record-icon.webp",
     "imageAlt": "スプリント記録のアプリアイコン",
