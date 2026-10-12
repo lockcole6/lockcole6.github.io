@@ -53,7 +53,7 @@ const html = `<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LOCKCOLE WORKS — 漫画・ゲーム・アプリ</title>
   <meta name="description" content="lockcoleの作品ポータル。オリジナル漫画、ブラウザゲーム、スプリント記録アプリを、ジャンルごとに楽しめます。">
-  <meta name="theme-color" content="#f7f6f2">
+  <meta name="theme-color" content="#1c201f">
   <link rel="canonical" href="https://lockcole6.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
@@ -62,7 +62,7 @@ const html = `<!doctype html>
   <meta property="og:url" content="https://lockcole6.github.io/">
   <meta property="og:image" content="https://lockcole6.github.io/assets/kaketara-okiru.webp">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   <script src="app.js" defer></script>
 </head>
 <body id="top">
