@@ -3,7 +3,7 @@
     "id": "kamisama-ima-okiteru",
     "category": "games",
     "title": "カミサマ、いま起きてる？",
-    "description": "現実の時間で動く、小さな町。カミサマになって、住民たちにちょっかいを。",
+    "description": "小さな町を見守るゲーム。",
     "tags": [
       "シミュレーション",
       "プロトタイプ"
@@ -18,7 +18,7 @@
     "id": "mofumofu-shukyudan",
     "category": "games",
     "title": "もふもふ蹴球団",
-    "description": "動物や幻獣の選手を集め、自分だけのチームを編成。リーグの頂点を目指そう。",
+    "description": "動物たちとチームを育てる。",
     "tags": [
       "サッカー",
       "チーム育成"
@@ -33,7 +33,7 @@
     "id": "sprint100m",
     "category": "games",
     "title": "100m SPRINT",
-    "description": "スタートの一瞬から、ゴールまで。ドット絵のトラックで挑む、100mのレース。",
+    "description": "タイミングで挑む100m走。",
     "tags": [
       "スポーツ",
       "レトロゲーム"
@@ -48,7 +48,7 @@
     "id": "kaketara-okiru",
     "category": "manga",
     "title": "賭けたら起きる。",
-    "description": "退屈な男の日常が動き出す。第1話「退屈な男」を、全16ページで。",
+    "description": "退屈していた男の日常が、動き出す。",
     "tags": [
       "ドラマ",
       "第1話公開中"
@@ -64,7 +64,7 @@
     "id": "mada-hayaku-nareru",
     "category": "manga",
     "title": "まだ、速くなれる。",
-    "description": "30代の会社員が、100mの世界へ踏み出す。もう一度、速さに夢中になる物語。",
+    "description": "30代の会社員が、もう一度100mに夢中になる。",
     "tags": [
       "スポーツ",
       "社会人 × 100m"
@@ -80,7 +80,7 @@
     "id": "taikutsu-no-odds",
     "category": "manga",
     "title": "退屈のオッズ",
-    "description": "着順の向こうに、人間と展開がある。人生に飽きていた男が出会う、競輪の物語。",
+    "description": "人生に飽きていた男が出会う、競輪の物語。",
     "tags": [
       "ドラマ",
       "競輪"
@@ -96,7 +96,7 @@
     "id": "track-record",
     "category": "apps",
     "title": "スプリント記録",
-    "description": "100m・200m・400mのタイムを記録して、成長をグラフで振り返る。日々の走りを、次の一歩へ。",
+    "description": "100m・200m・400mのタイムを記録して振り返る。",
     "tags": [
       "陸上短距離",
       "記録・分析"
