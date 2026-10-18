@@ -24,6 +24,7 @@ for (const work of works) {
   } else if (!Array.isArray(work.platforms) || !work.platforms.length || work.platforms.some(platform => typeof platform !== 'string' || !platform.trim())) {
     throw new Error('Invalid platforms: ' + work.id);
   }
+  if (work.stage && !['prototype'].includes(work.stage)) throw new Error('Invalid development stage: ' + work.id);
   if (new URL(work.url).protocol !== 'https:') throw new Error('HTTPS URL required: ' + work.id);
   if (!['cover', 'town', 'screenshot', 'record'].includes(work.art)) throw new Error('Invalid art: ' + work.id);
   if (!/^assets\/[a-z0-9-]+\.webp$/.test(work.image)) throw new Error('Invalid image: ' + work.id);
@@ -45,7 +46,7 @@ const arrow = '<svg class="work-arrow" viewBox="0 0 24 24" fill="none" aria-hidd
 function row(work, eager) {
   const details = work.category === 'manga'
     ? [work.publishedEpisodes + '話公開中', work.status === 'ongoing' ? '続きは制作中' : '完結']
-    : work.platforms;
+    : [...work.platforms, ...(work.stage === 'prototype' ? ['プロトタイプ'] : [])];
   return [
     '<li class="work-item">',
     '  <a class="work-link" href="' + escape(work.url) + '" aria-label="' + escape(work.title) + '：' + escape(work.action) + '" aria-describedby="' + work.id + '-details">',
@@ -93,7 +94,7 @@ const html = [
   '  <meta property="og:url" content="https://lockcole6.github.io/">',
   '  <meta property="og:image" content="https://lockcole6.github.io/assets/mofumofu-game.webp">',
   '  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">',
-  '  <link rel="stylesheet" href="styles.css?v=5">',
+  '  <link rel="stylesheet" href="styles.css?v=6">',
   '</head>',
   '<body id="top">',
   '  <a class="skip-link" href="#works">作品一覧へスキップ</a>',

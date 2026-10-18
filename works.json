@@ -4,6 +4,7 @@
     "category": "games",
     "title": "カミサマ、いま起きてる？",
     "platforms": ["ブラウザ"],
+    "stage": "prototype",
     "description": "小さな町を見守るゲーム。",
     "tags": [
       "シミュレーション",
