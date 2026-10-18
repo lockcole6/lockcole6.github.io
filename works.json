@@ -3,6 +3,7 @@
     "id": "kamisama-ima-okiteru",
     "category": "games",
     "title": "カミサマ、いま起きてる？",
+    "platforms": ["ブラウザ"],
     "description": "小さな町を見守るゲーム。",
     "tags": [
       "シミュレーション",
@@ -18,6 +19,7 @@
     "id": "mofumofu-shukyudan",
     "category": "games",
     "title": "もふもふ蹴球団",
+    "platforms": ["ブラウザ"],
     "description": "動物たちとチームを育てる。",
     "tags": [
       "サッカー",
@@ -33,6 +35,7 @@
     "id": "sprint100m",
     "category": "games",
     "title": "100m SPRINT",
+    "platforms": ["ブラウザ"],
     "description": "タイミングで挑む100m走。",
     "tags": [
       "スポーツ",
@@ -48,6 +51,8 @@
     "id": "kaketara-okiru",
     "category": "manga",
     "title": "賭けたら起きる。",
+    "publishedEpisodes": 1,
+    "status": "ongoing",
     "description": "退屈していた男の日常が、動き出す。",
     "tags": [
       "ドラマ",
@@ -64,6 +69,8 @@
     "id": "mada-hayaku-nareru",
     "category": "manga",
     "title": "まだ、速くなれる。",
+    "publishedEpisodes": 7,
+    "status": "ongoing",
     "description": "30代の会社員が、もう一度100mに夢中になる。",
     "tags": [
       "スポーツ",
@@ -80,6 +87,8 @@
     "id": "taikutsu-no-odds",
     "category": "manga",
     "title": "退屈のオッズ",
+    "publishedEpisodes": 8,
+    "status": "ongoing",
     "description": "人生に飽きていた男が出会う、競輪の物語。",
     "tags": [
       "ドラマ",
@@ -96,6 +105,7 @@
     "id": "track-record",
     "category": "apps",
     "title": "スプリント記録",
+    "platforms": ["Webアプリ"],
     "description": "100m・200m・400mのタイムを記録して振り返る。",
     "tags": [
       "陸上短距離",
