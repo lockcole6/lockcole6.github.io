@@ -1,7 +1,13 @@
 [
   {
-    "date": "2026-11-13",
+    "date": "2026-10-18",
     "category": "サイト",
-    "text": "サイトを更新しました。"
+    "text": "サイトを公開しました。"
+  },
+  {
+    "date": "2026-11-13",
+    "category": "漫画",
+    "text": "「まだ、速くなれる。」第8話「追い風のあと」を公開しました。",
+    "url": "https://lockcole6.github.io/mada-hayaku-nareru/episodes/08/index.html"
   }
 ]
